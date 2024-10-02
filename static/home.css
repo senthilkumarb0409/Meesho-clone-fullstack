@@ -1,0 +1,242 @@
+.Head{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background: white;
+    top: 0px;
+}
+.logo {
+   height:36px;
+   width:156px;
+   color:transparent;
+   margin-top: 10px;
+}
+.header{
+    max-width: 1328px;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.headval{
+    height: 72px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: rgb(255, 255, 255);
+
+
+}
+.searchbar {
+   position: relative;
+   align-self: center;
+   margin-left: 30px;
+}
+
+.searchinput {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width:400px;
+    border: 1px solid rgb(139,139,163);
+    border-radius: 4px;
+    padding: 11px;
+   
+}
+.searchinputval{
+    border-radius: 0px 12px 12px 0px;
+    letter-spacing: 0.0025em;
+    box-sizing: border-box;
+    flex: 1 1 0%;
+    padding: 0px;
+    border: none;
+    height: 100%;
+    width: 100%;
+    caret-color: rgb(159, 32, 137);
+}
+.searchicon{
+    height: 100%;
+    display: flex;
+    padding: 0px 8px 0px 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.essentials{
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-left: 15px;
+}
+.downapp{
+    position: relative;
+    height: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 2px 2px 0px 0px;
+    flex-direction: row;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: rgb(255, 255, 255);
+}
+.phone{
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+    cursor: inherit;
+}
+.downspan{
+    color: rgb(53, 53, 67);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mier book";
+    margin: 0px;
+    padding: 0px;
+}
+.downspan1{
+    width: 2px;
+    height: 40px;
+    background-color: rgb(206, 206, 222);
+    border-radius: 2px;
+}
+.profile{
+    position: relative;
+    height: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 2px 2px 0px 0px;
+    flex-direction: column;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    min-width: 80px;
+    margin-left: 24px;
+}
+.profileicon{
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+    cursor: inherit;
+}
+.profspan{
+    color: rgb(53, 53, 67);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mier book";
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.cart{
+    position: relative;
+    height: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 2px 2px 0px 0px;
+    flex-direction: column;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.carticon{
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+    cursor: inherit;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.cartspan{
+    color: rgb(53, 53, 67);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mier book";
+    margin: 0px;
+    padding: 0px;
+}
+.divider{
+    height: 1px;
+    background-color: rgb(206, 206, 222);
+    border-radius: 2px;
+    width: 100%;
+    margin-top: 2px;
+}
+.navhead{
+    max-width: 1328px;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navcontent{
+    position: relative;
+    height: 52px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    pointer-events: all;
+    
+}
+.navcontainer{
+    overflow-x: auto;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.navstyle{
+    height: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 2px 2px 0px 0px;
+    padding: 0px 8px;
+    min-width: 90px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navspan{
+    color: rgb(53, 53, 67);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mier book";
+    margin: 0px;
+    padding: 0px;
+}
